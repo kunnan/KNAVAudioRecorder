@@ -9,10 +9,10 @@
 /* Begin PBXBuildFile section */
 		E1C2F78220A01EA8007CE961 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C2F78120A01EA8007CE961 /* AppDelegate.m */; };
 		E1C2F78520A01EA8007CE961 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C2F78420A01EA8007CE961 /* ViewController.m */; };
-		E1C2F78820A01EA8007CE961 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1C2F78620A01EA8007CE961 /* Main.storyboard */; };
 		E1C2F78A20A01EA8007CE961 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1C2F78920A01EA8007CE961 /* Assets.xcassets */; };
 		E1C2F78D20A01EA8007CE961 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1C2F78B20A01EA8007CE961 /* LaunchScreen.storyboard */; };
 		E1C2F79020A01EA8007CE961 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C2F78F20A01EA8007CE961 /* main.m */; };
+		E1C2F79720A01FD0007CE961 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1C2F79620A01FD0007CE961 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,11 +21,11 @@
 		E1C2F78120A01EA8007CE961 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		E1C2F78320A01EA8007CE961 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		E1C2F78420A01EA8007CE961 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		E1C2F78720A01EA8007CE961 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E1C2F78920A01EA8007CE961 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E1C2F78C20A01EA8007CE961 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E1C2F78E20A01EA8007CE961 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E1C2F78F20A01EA8007CE961 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E1C2F79620A01FD0007CE961 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,8 +62,8 @@
 				E1C2F78120A01EA8007CE961 /* AppDelegate.m */,
 				E1C2F78320A01EA8007CE961 /* ViewController.h */,
 				E1C2F78420A01EA8007CE961 /* ViewController.m */,
-				E1C2F78620A01EA8007CE961 /* Main.storyboard */,
 				E1C2F78920A01EA8007CE961 /* Assets.xcassets */,
+				E1C2F79620A01FD0007CE961 /* Main.storyboard */,
 				E1C2F78B20A01EA8007CE961 /* LaunchScreen.storyboard */,
 				E1C2F78E20A01EA8007CE961 /* Info.plist */,
 				E1C2F78F20A01EA8007CE961 /* main.m */,
@@ -129,9 +129,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1C2F79720A01FD0007CE961 /* Main.storyboard in Resources */,
 				E1C2F78D20A01EA8007CE961 /* LaunchScreen.storyboard in Resources */,
 				E1C2F78A20A01EA8007CE961 /* Assets.xcassets in Resources */,
-				E1C2F78820A01EA8007CE961 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,14 +151,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E1C2F78620A01EA8007CE961 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E1C2F78720A01EA8007CE961 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E1C2F78B20A01EA8007CE961 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
